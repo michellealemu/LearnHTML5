@@ -598,7 +598,7 @@ function saveNewChampion(event) {
 }
 
 function setEnemySpeed(speed) {
-  enemy.setSpeed(speed * 23);
+  enemy.setSpeed(speed * 3);
 }
 
 function handleKeyPress(event) {
@@ -642,12 +642,11 @@ function handleKeyPress(event) {
 
 
 function getWords() {
-  var phrases = [
-      "The quick brown fox stopped being quick once its hunter started wearing chrome.",
-      "I must win my dream boat before the snaughty Mr. Snaughtington takes it from me.",
-      "I love HTML5 because it is such an amazing platform to develop games in.",
-      "People who type fast are more likely to win at this game. Yes, that is true.",
-      "For some reason, I think I can have fun while typing, and improving at the same time."];
+  var phrases = ["I love Shriek. Shriek is life.",
+      "A patato fell around my room before I saw you. I am not the brightest tool in the shed.",
+      "Love yourself more than Kanye loves Kanye.",
+      "Last Christmas, I gave you my heart and the very next day you gave it away.",
+      "Christmas is my favorite holiday in the whole year."];
   var rand = parseInt(Math.random() * phrases.length);
 
   return phrases[rand];
